@@ -1,0 +1,48 @@
+.social-icons {
+    display: flex;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+
+
+.social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icons-linc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    background-color: inherit;
+    border-radius: 50%;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+}
+
+}
+
+.social-icon-svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-linc:hover .social-icon-svg,
+.social-icons-linc:focus .social-icon-svg {
+   fill: $title-page-color;
+}
+
+

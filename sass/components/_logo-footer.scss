@@ -1,0 +1,11 @@
+.link-hf {
+    display: inline-block;
+    margin-bottom: 20px;
+    @include link (inherit, none);
+    @include logo ($font-raleway, 700, 26px, 1.192, 0.03em);
+}
+
+.logo-color-footer {
+    color: $title-page-color;
+}
+

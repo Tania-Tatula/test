@@ -1,0 +1,21 @@
+.logo-color-header {
+    @include logo ($font-raleway, 700, 26px, 1.192, 0.03em);
+
+    color: $title-text-color;
+}
+
+.heder-logo {
+    display: inline-block;
+    margin-right: 93px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-color {
+    color: $accent-color;
+}
+
+.logo-color-footer {
+    color: $title-page-color;
+    @include logo ($font-raleway, 700, 26px, 1.192, 0.03em);
+}

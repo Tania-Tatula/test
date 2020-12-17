@@ -1,0 +1,47 @@
+.footer-email-form input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: inherit;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    padding: 15px 16px;
+    margin-right: 12px;
+}
+.footer-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-email-form input {
+    color: $title-page-color;
+}
+
+.footer-email-form input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-btn-svg {
+    position: absolute;
+    left: 148px;
+    top: 13px;
+    width: 24px;
+    height: 24px;
+
+}
+
+.footer-icon-svg {
+    width: 24px;
+    height: 24px;
+
+
+    fill: $title-page-color;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }

@@ -1,0 +1,26 @@
+.social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-icons-linc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    background-color: inherit;
+    border-radius: 50%;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-svg-linc {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-svg-icon {
+    width: 20px;
+    height: 20px;
+    fill: $title-page-color;
+}

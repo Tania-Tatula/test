@@ -1,0 +1,17 @@
+@mixin link ($color, $td) {
+    color: $color;
+    text-decoration: $td;
+}
+
+@mixin logo ($ff, $fw, $fs, $lh, $ls) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
+@mixin flexbox ($dsp, $fl-w) {
+    display: $dsp;
+    flex-wrap: $fl-w;
+}

@@ -1,0 +1,32 @@
+.bg-color-dark-footer{
+    background-color: $bg-dark-color; 
+}
+
+.footer-container {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.bloc {
+    display: flex;
+    justify-content:start;
+}
+
+.footer-bloc {
+    min-width: 206px;
+    margin-right: 70px;
+}
+
+.addres-bloc{
+    min-width: 231px;      
+}
+
+.footer-form {
+    min-width: 570px;
+    margin-left: 23px;
+}
+
+.social-network-title {
+    color: $title-page-color;
+    margin-bottom: 20px;
+}

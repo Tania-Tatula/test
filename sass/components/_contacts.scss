@@ -1,0 +1,25 @@
+.contacts {
+    color: $primari-text-color;
+
+}
+
+.header-svg-linc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+ &:hover .header-svg-icon,
+ &:focus .header-svg-icon {
+    fill: $accent-color;
+}
+}
+
+.header-svg-icon {
+    fill: $primari-text-color;
+    margin-right: 10px;
+}
